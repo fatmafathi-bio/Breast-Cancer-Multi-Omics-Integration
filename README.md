@@ -22,9 +22,16 @@ The analysis integrates three distinct data modalities from TCGA:
 ## Key Findings
 Based on the analysis results:
 * **Factor 1** captures the largest variance in RNA and identifies Basal/TNBC tumors (Keratinization) with HDAC pathway enrichment, suggesting vulnerability to HDAC inhibitors (e.g., Vorinostat).
-* **Pathway Enrichment:** Factor 2,3 is significantly enriched for **Immune System**, **Interferon Signaling**,**TCR signaling**,**Costimulation by the CD28 family** and **PD-1 Signaling** pathways witch can predict immuotherapy efficacy 
+* **Pathway Enrichment:** Factor 2,3 is significantly enriched for **Immune System**, **Interferon Signaling**,**TCR signaling**,**Costimulation by the CD28 family** and **PD-1 Signaling** pathways witch can predict immuotherapy efficacy .
 
 **Factor 4** Unique variance in **CNV** layer and it specifically highlights **MET activates PTK2 signaling**,**Signaling by MET**, and **MET promotes cell motility** which can predict that patients enriched in **Factor 4** are potential candidates for **MET inhibitors**. 
 
 **Factor 5** is likely invasive and drug-resistant due to **fibrotic tumor microenvironment**, which typically promotes tumor aggression and protects cancer cells from chemotherapy (drug delivery barrier).
+
+
+
+
+## Furure direction 
+* **adding more omics to discover more latent factors**.
+* **Clustering and survival analysis** .
 
